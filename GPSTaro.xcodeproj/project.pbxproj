@@ -9,21 +9,27 @@
 /* Begin PBXBuildFile section */
 		45F69126274785F900D15C21 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45F69125274785F900D15C21 /* AppDelegate.swift */; };
 		45F69128274785F900D15C21 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45F69127274785F900D15C21 /* SceneDelegate.swift */; };
-		45F6912A274785F900D15C21 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45F69129274785F900D15C21 /* ViewController.swift */; };
+		45F6912A274785F900D15C21 /* WebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45F69129274785F900D15C21 /* WebViewController.swift */; };
 		45F6912D274785F900D15C21 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 45F6912B274785F900D15C21 /* Main.storyboard */; };
 		45F6912F274785FB00D15C21 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 45F6912E274785FB00D15C21 /* Assets.xcassets */; };
 		45F69132274785FB00D15C21 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 45F69130274785FB00D15C21 /* LaunchScreen.storyboard */; };
+		45F6913A27478D5F00D15C21 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45F6913927478D5F00D15C21 /* Constants.swift */; };
+		FC1A192A4BE3ECB4E232DEF3 /* Pods_GPSTaro.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 62E7CA925303FDE5F00D9708 /* Pods_GPSTaro.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		45F69122274785F900D15C21 /* GPSTaro.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GPSTaro.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		45F69125274785F900D15C21 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		45F69127274785F900D15C21 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		45F69129274785F900D15C21 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		45F69129274785F900D15C21 /* WebViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebViewController.swift; sourceTree = "<group>"; };
 		45F6912C274785F900D15C21 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		45F6912E274785FB00D15C21 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		45F69131274785FB00D15C21 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		45F69133274785FB00D15C21 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		45F6913927478D5F00D15C21 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		62E7CA925303FDE5F00D9708 /* Pods_GPSTaro.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GPSTaro.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A18E54BDE6DAF419A86A4241 /* Pods-GPSTaro.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GPSTaro.debug.xcconfig"; path = "Target Support Files/Pods-GPSTaro/Pods-GPSTaro.debug.xcconfig"; sourceTree = "<group>"; };
+		B67E153EF56C66C86ABEAE52 /* Pods-GPSTaro.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GPSTaro.release.xcconfig"; path = "Target Support Files/Pods-GPSTaro/Pods-GPSTaro.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +37,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FC1A192A4BE3ECB4E232DEF3 /* Pods_GPSTaro.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1E06F481E21B0668E4375339 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A18E54BDE6DAF419A86A4241 /* Pods-GPSTaro.debug.xcconfig */,
+				B67E153EF56C66C86ABEAE52 /* Pods-GPSTaro.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		3DCCB56F9301785D2B6787C9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				62E7CA925303FDE5F00D9708 /* Pods_GPSTaro.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		45F69119274785F900D15C21 = {
 			isa = PBXGroup;
 			children = (
 				45F69124274785F900D15C21 /* GPSTaro */,
 				45F69123274785F900D15C21 /* Products */,
+				1E06F481E21B0668E4375339 /* Pods */,
+				3DCCB56F9301785D2B6787C9 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -58,8 +84,9 @@
 			children = (
 				45F69125274785F900D15C21 /* AppDelegate.swift */,
 				45F69127274785F900D15C21 /* SceneDelegate.swift */,
-				45F69129274785F900D15C21 /* ViewController.swift */,
+				45F69129274785F900D15C21 /* WebViewController.swift */,
 				45F6912B274785F900D15C21 /* Main.storyboard */,
+				45F6913927478D5F00D15C21 /* Constants.swift */,
 				45F6912E274785FB00D15C21 /* Assets.xcassets */,
 				45F69130274785FB00D15C21 /* LaunchScreen.storyboard */,
 				45F69133274785FB00D15C21 /* Info.plist */,
@@ -74,9 +101,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 45F69136274785FB00D15C21 /* Build configuration list for PBXNativeTarget "GPSTaro" */;
 			buildPhases = (
+				43D328440FB62D1A7E9D2FE1 /* [CP] Check Pods Manifest.lock */,
 				45F6911E274785F900D15C21 /* Sources */,
 				45F6911F274785F900D15C21 /* Frameworks */,
 				45F69120274785F900D15C21 /* Resources */,
+				2406B0AD42C294D578EF41ED /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -133,14 +162,57 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		2406B0AD42C294D578EF41ED /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-GPSTaro/Pods-GPSTaro-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-GPSTaro/Pods-GPSTaro-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-GPSTaro/Pods-GPSTaro-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		43D328440FB62D1A7E9D2FE1 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-GPSTaro-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		45F6911E274785F900D15C21 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				45F6912A274785F900D15C21 /* ViewController.swift in Sources */,
+				45F6912A274785F900D15C21 /* WebViewController.swift in Sources */,
 				45F69126274785F900D15C21 /* AppDelegate.swift in Sources */,
 				45F69128274785F900D15C21 /* SceneDelegate.swift in Sources */,
+				45F6913A27478D5F00D15C21 /* Constants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -284,6 +356,7 @@
 		};
 		45F69137274785FB00D15C21 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A18E54BDE6DAF419A86A4241 /* Pods-GPSTaro.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -312,6 +385,7 @@
 		};
 		45F69138274785FB00D15C21 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B67E153EF56C66C86ABEAE52 /* Pods-GPSTaro.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
